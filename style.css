@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #78947b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.nav-logo {
+  padding: 20px;
+}
+
+.navbar .nav-logo a {
+  font-size: 30px;
+}
+
+.nav-list {
+  margin-right: 20px;
+}
+
+.nav-list .list-elements {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a {
+  color: rgb(37, 72, 78);
+  font-size: 20px;
+}
+
+li a.active:hover {
+  color: wheat;
+}
+
+li a.active {
+  color: rgb(37, 72, 78);
+}
+
+.banner {
+  background-image: url(assets/img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.banner-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: rgb(209, 204, 195);
+  font-size: 30px;
+}
+
+.banner-navbar {
+  background-color: #78947b;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.banner-logo {
+  padding: 20px;
+}
+
+.banner-logo a {
+  color: wheat;
+  letter-spacing: 2px;
+}
+
+.banner-logo a:hover {
+  color: rgb(37, 72, 78);
+}
+
+.banner-list {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.banner-list .banner-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+}
+
+input::placeholder {
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+button {
+  background-color: rgb(37, 72, 78);
+  color: wheat;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: wheat;
+  color: rgb(37, 72, 78);
+  font-weight: bold;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-card {
+  margin: 50px;
+}
+
+.portfolio-card h4:hover {
+  color: rgb(37, 72, 78);
+  cursor: pointer;
+}
+
+.portfolio-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.portfolio-title {
+  margin: 20px;
+}
+
+.about-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-bottom: 322px;
+  gap: 250px;
+}
+
+.about-info,
+.about-dark,
+.about-light {
+  letter-spacing: 2px;
+}
+
+.about-dark {
+  background-color: #bfd4c1;
+  margin-top: 50px;
+  padding: 10px;
+  color: rgb(37, 72, 78);
+}
+
+.about-info {
+  background-color: #bfd4c1;
+  height: 200px;
+  padding: 9px;
+  color: rgb(30, 46, 49);
+}
+
+.about-profile-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.services-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.services-card {
+  background-color: #bfd4c1;
+  padding: 30px 10px;
+  margin-bottom: 10px;
+}
+
+.services-card h3,
+p {
+  margin: 10px;
+  color: rgb(37, 72, 78);
+}
+
+.services-form {
+  background-color: rgb(37, 72, 78);
+  height: 300px;
+  width: 470px;
+  padding: 10px;
+  color: wheat;
+}
+
+.services-form input,
+textarea {
+  width: 450px;
+}
+
+.services textarea::placeholder {
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: wheat;
+  color: rgb(37, 72, 78);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #78947b;
+  color: wheat;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(60, 77, 80);
+  padding: 50px;
+  bottom: 0px;
+}
+
+.footer-cont h4 {
+  color: wheat;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(60, 77, 80);
+  padding: 50px;
+}
+
+.about-footer-cont h4 {
+  color: wheat;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.services-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(60, 77, 80);
+  padding: 50px;
+  bottom: 0px;
+}
+
+.services-footer-cont h4 {
+  color: wheat;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.wp {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2.4rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #78947b;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 0.16rem;
+}
+
+.wp a {
+  color: rgb(0, 0, 0);
+}
+
+.wp:hover {
+  cursor: pointer;
+  outline: 2px solid rgb(104, 127, 131);
+  outline-offset: 3px;
+  color: wheat;
+}
